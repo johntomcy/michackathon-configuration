@@ -1,6 +1,6 @@
 # EMBEDDED SERVER CONFIGURATION
 server:
-    port: ${port:9090}
+    port: ${port:7979}
     error.whitelabel.enabled: false
 
 # EUREKA
