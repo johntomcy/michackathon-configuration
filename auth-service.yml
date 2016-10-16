@@ -1,6 +1,6 @@
 # EMBEDDED SERVER CONFIGURATION
 server:
-    port: ${port:8083}
+    port: ${port:8082}
     context-path: /
     use-forward-headers: true
     error.whitelabel.enabled: false
