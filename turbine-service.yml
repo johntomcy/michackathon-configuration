@@ -1,7 +1,12 @@
 # EMBEDDED SERVER CONFIGURATION
 server:
-    port: ${port:9999}
+    port: ${port:9898}
     error.whitelabel.enabled: false
+
+turbine:
+  appConfig: WEB,user-api-service,travel-history-api-service
+  aggregator:
+    clusterConfig: WEB,USER-API-SERVICE,TRAVEL-HISTORY-API-SERVICE
 
 # EUREKA
 eureka:
