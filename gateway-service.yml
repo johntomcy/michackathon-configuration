@@ -21,6 +21,10 @@ zuul:
       sensitiveHeaders:
       path: /user/**
       stripPrefix: false
+    travel-history-api-service:
+      sensitiveHeaders:
+      path: /travel-history/**
+      stripPrefix: false
   add-proxy-headers: true
 #SECURITY
 security:
