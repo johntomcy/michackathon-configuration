@@ -14,8 +14,8 @@ eureka:
 
 sidecar:
   port: 3000
-  home-page-uri: http://localhost:${sidecar.port}/
-  health-uri: http://localhost:${sidecar.port}/health
+  home-page-uri: http://node-service:${sidecar.port}/
+  health-uri: http://node-service:${sidecar.port}/health
 
 hystrix:
   command:
