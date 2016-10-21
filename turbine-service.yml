@@ -4,9 +4,9 @@ server:
     error.whitelabel.enabled: false
 
 turbine:
-  appConfig: web,user-api-service,travel-history-api-service
+  appConfig: user-api-service,travel-history-api-service
   aggregator:
-    clusterConfig: WEB,USER-API-SERVICE,TRAVEL-HISTORY-API-SERVICE
+    clusterConfig: USER-API-SERVICE,TRAVEL-HISTORY-API-SERVICE
 
 # EUREKA
 eureka:
