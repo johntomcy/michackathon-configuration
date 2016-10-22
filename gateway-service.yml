@@ -23,15 +23,11 @@ zuul:
       stripPrefix: false
     travel-history-api-service:
       sensitiveHeaders:
-      path: /travel-history/**
+      path: /**
       stripPrefix: false
     node-sidecar-service:
       sensitiveHeaders:
       path: /node-service/**
-      stripPrefix: false
-    travel-history-api-service:
-      sensitiveHeaders:
-      path: /flights/**
       stripPrefix: false
   add-proxy-headers: true
 #SECURITY
