@@ -23,7 +23,7 @@ zuul:
       stripPrefix: false
     travel-history-api-service:
       sensitiveHeaders:
-      path: /**
+      path: /*/**
       stripPrefix: false
     node-sidecar-service:
       sensitiveHeaders:
