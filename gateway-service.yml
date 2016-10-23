@@ -25,6 +25,14 @@ zuul:
       sensitiveHeaders:
       path: /*/**
       stripPrefix: false
+    flight-api-service:
+      sensitiveHeaders:
+      path: /*/**
+      stripPrefix: false
+    recommendation-api-service:
+      sensitiveHeaders:
+      path: /*/**
+      stripPrefix: false
     node-sidecar-service:
       sensitiveHeaders:
       path: /node-service/**
